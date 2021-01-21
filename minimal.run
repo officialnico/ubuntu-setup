@@ -1,0 +1,12 @@
+sudo su
+apt update
+apt upgrade
+apt install python3 -y
+apt install python3-pip -y
+apt install fish -y
+apt install curl -y
+curl -fsSL https://starship.rs/install.sh | bash -y
+chsh -s /bin/fish
+touch ~/.config/fish/config.fish
+echo "starship init fish | source" >> ~/.config/fish/config.fish
+exec fish
