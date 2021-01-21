@@ -1,6 +1,6 @@
 sudo su
 apt update
-apt upgrade
+apt upgrade -y
 apt install python3 -y
 apt install python3-pip -y
 apt install fish -y
