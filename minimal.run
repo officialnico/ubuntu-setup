@@ -1,9 +1,13 @@
 apt update
 apt upgrade -y
-apt install python3 -y
-apt install python3-pip -y
-apt install fish -y
-apt install curl -y
+apt install python3 -y \
+apt install python3-pip -y \
+apt install fish -y \
+apt install curl -y \
+apt install vim -y \
+apt install nodejs -y \
+apt install npm -y \
+npm install -g yarn \
 curl -fsSL https://starship.rs/install.sh | bash
 chsh -s /bin/fish
 touch ~/.config/fish/config.fish
